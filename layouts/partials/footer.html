@@ -1,17 +1,17 @@
-      </main>
+</main>
 
-      <footer id='footer' class='footer'>
-        <div class='container sep-before'>
-          {{- $footerWidgets := .Site.Params.widgets.footer -}}
+<footer id='footer' class='footer'>
+  <div class='container sep-before'>
+    {{- $footerWidgets := .Site.Params.widgets.footer -}}
           {{- partial "extras/widget_area" ( dict "Widgets" $footerWidgets "Scope" . ) -}}
-          {{ partial "footer/copyright" . }}
-        </div>
-      </footer>
-
-    </div>
+    {{ partial "footer/copyright" . }}
   </div>
+</footer>
 
-  {{- partial "footer/scripts" . -}}
+</div>
+</div>
+
+{{- partial "footer/scripts" . -}}
 
 </body>
 

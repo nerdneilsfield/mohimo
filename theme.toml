@@ -40,13 +40,17 @@ features = [
   "deprecated-pages",
   "mathjax"
 ]
-min_version = 0.45
+min_version = 0.48
 
 [author]
-  name = "Adam Charytoniuk"
-  homepage = "https://github.com/achary/engimo"
+  name = "Hama Jiang"
 
-[original]
+
+[original1]
   name = "Munif Tanjim"
   homepage = "https://muniftanjim.com"
   repo = "https://github.com/MunifTanjim/minimo"
+
+[original2]
+  name = "Adam Charytoniuk"
+  homepage = "https://github.com/achary/engimo"

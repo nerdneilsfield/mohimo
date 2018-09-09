@@ -17,11 +17,11 @@
         <div class='container sep-after'>
           <div class='header-info'>
             {{- if eq .Kind "home" -}}
-              <h1 class='site-title title'>{{ .Site.Title }}</h1>
+            <h1 class='site-title title font-song'>{{ .Site.Title }}</h1>
             {{- else -}}
-              <p class='site-title title'>{{ .Site.Title }}</p>
+            <p class='site-title title font-song'>{{ .Site.Title }}</p>
             {{- end -}}
-            <p class='desc site-desc'>{{ .Site.Params.info.description }}</p>
+            <p class='desc site-desc font-kai'>{{ .Site.Params.info.description }}</p>
           </div>
         </div>
       </header>

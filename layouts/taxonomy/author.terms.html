@@ -11,7 +11,7 @@
     {{- $data := ( or ( index $author $lang ) $author ) -}}
     {{- $name := $data.name -}}
     <li class='item'>
-      <h2 class='item-title'>
+      <h2 class='item-title font-fa-song'>
         {{- partial "svg/icons" "author" -}}
         <a href='{{ ( print "authors" "/" ( .Name | urlize ) ) | relLangURL }}'>
           {{- $name.display -}}
